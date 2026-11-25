@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ویبرا چت؛ پروژه‌ای برای ساخت تجربه‌ای تازه از پیام‌رسانی.">
+  <title>ویبرا چت | پیام‌رسانی با حال‌وهوای تازه</title>
+  <style>
+    *{box-sizing:border-box}
+    body{
+      margin:0;font-family:Tahoma,sans-serif;color:#f7f8ff;
+      background:radial-gradient(circle at 15% 15%,#26336a,transparent 35%),
+      radial-gradient(circle at 85% 30%,#164d59,transparent 30%),#0b1020;
+      min-height:100vh
+    }
+    .wrap{width:min(1050px,92%);margin:auto}
+    header{display:flex;align-items:center;justify-content:space-between;padding:28px 0}
+    .brand{display:flex;align-items:center;gap:12px;font-size:22px;font-weight:bold}
+    .logo{width:45px;height:45px;border-radius:15px;display:grid;place-items:center;
+      background:linear-gradient(135deg,#42d7d0,#8d7cff);color:#10172a;font-size:25px}
+    .tag{border:1px solid #ffffff33;border-radius:30px;padding:10px 15px;color:#d7def2;font-size:13px}
+    main{display:grid;grid-template-columns:1.1fr .9fr;gap:45px;align-items:center;padding:65px 0}
+    .eyebrow{color:#42d7d0;font-weight:bold}
+    h1{font-size:clamp(35px,6vw,65px);line-height:1.5;margin:15px 0}
+    h1 span{color:#42d7d0}
+    p{color:#b5bfd8;line-height:2.2;font-size:17px}
+    .status{display:inline-block;margin-top:15px;padding:13px 17px;border-radius:14px;
+      background:#ffffff12;border:1px solid #ffffff25}
+    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:30px}
+    .feature{background:#ffffff0c;border:1px solid #ffffff20;border-radius:16px;padding:15px}
+    .feature b{display:block;margin-bottom:10px}
+    .feature small{color:#aab5d0;line-height:1.9}
+    .mock{background:linear-gradient(145deg,#202d50,#111a31);border:1px solid #ffffff30;
+      border-radius:26px;padding:22px;box-shadow:0 25px 70px #0008}
+    .mock-top{padding-bottom:17px;border-bottom:1px solid #ffffff22;font-weight:bold}
+    .bubble{padding:14px 16px;border-radius:17px;margin-top:18px;line-height:1.9;font-size:14px}
+    .left{background:#ffffff15;margin-left:15%}
+    .right{background:linear-gradient(120deg,#287f89,#6559b7);margin-right:15%}
+    footer{border-top:1px solid #ffffff22;padding:25px 0;text-align:center;color:#8995b4;font-size:13px;line-height:2}
+    @media(max-width:750px){
+      main{grid-template-columns:1fr;padding:35px 0}
+      .features{grid-template-columns:1fr}
+      .tag{font-size:11px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand"><div class="logo">V</div>ویبرا چت</div>
+      <div class="tag">وب‌سایت رسمی پروژه</div>
+    </header>
+    <main>
+      <section>
+        <div class="eyebrow">ارتباط، ساده‌تر از همیشه</div>
+        <h1>دنیای تازه‌ای از <span>گفت‌وگو</span> در راه است.</h1>
+        <p>
+          ویبرا چت یک پروژه پیام‌رسانی در حال توسعه است.
+          هدف ما ساخت فضایی ساده و کاربردی برای گفت‌وگو،
+          ارتباط با دوستان و اشتراک‌گذاری محتواست.
+        </p>
+        <div class="status">🟡 وضعیت پروژه: در حال توسعه</div>
+        <div class="features">
+          <div class="feature"><b>گفت‌وگوی خصوصی</b><small>زیرساخت گفت‌وگوهای شخصی در دست طراحی است.</small></div>
+          <div class="feature"><b>گروه‌ها</b><small>ارتباط گروهی از قابلیت‌های برنامه‌ریزی‌شده است.</small></div>
+          <div class="feature"><b>رسانه‌ها</b><small>اشتراک‌گذاری تصویر و ویدئو در برنامه توسعه قرار دارد.</small></div>
+        </div>
+      </section>
+      <aside class="mock">
+        <div class="mock-top">گفت‌وگوی نمونه</div>
+        <div class="bubble left">سلام! به ویبرا چت خوش اومدی 👋</div>
+        <div class="bubble right">سلام! مشتاقم نسخه نهایی رو ببینم.</div>
+        <div class="bubble left">ما در حال ساخت تجربه‌ای ساده و کاربردی هستیم.</div>
+        <div class="bubble right">منتظر خبرهای بعدی می‌مونم ✨</div>
+      </aside>
+    </main>
+    <footer>
+      © ویبرا چت — این وب‌سایت صفحه معرفی پروژه است و سرویس پیام‌رسان هنوز در حال توسعه است.
+    </footer>
+  </div>
+</body>
+</html>
